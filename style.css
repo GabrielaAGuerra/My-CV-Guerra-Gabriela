@@ -96,11 +96,7 @@
         top: 50%;
     }
 }
-@media screen and (min-width: 480px){
-    
-   
-    
-}
+
 
 /* MENU */
 
@@ -803,7 +799,7 @@ footer .arriba{
 }
 /* SECCION RESPONSIVE */
 @media screen and (min-width: 480px){
-    .G{
+    .G .G-container .G-fluid{
         display: flex;
     }
     
