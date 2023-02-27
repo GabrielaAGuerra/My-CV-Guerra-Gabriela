@@ -131,13 +131,14 @@ html{
     padding: 0;
 }
 .contenedor-header{
+    display: flex;
     background: #1e2326;
     position: fixed;
     width: 100%;
     top: 30px;
     left: 0;
     z-index: 99;
-    display: flex;
+    
     padding: 0 50px;
    
    
@@ -155,14 +156,14 @@ html{
 }
 .contenedor-header header  ul li a{
     text-align: none;
-    color: #fff;
-    margin: 0 15px;
+    color: #ffffff;
+    margin: 10 15px;
     padding: 10px 13px;
     transition: .5s;
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1e2326;;
+    color: #1e2326;
 }
 .nav-responsive{
     background-color: #1CB698;
@@ -170,7 +171,7 @@ html{
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
-    display: none;
+    display: flex;
 }
 @media screen and (min-width: 480px){
     body {
@@ -192,7 +193,7 @@ html{
 
 
 section {
-    position: relative;
+    position: flex;
     max-width: 90%;
     padding-top: 90px;
     padding-bottom: 100px;
@@ -210,13 +211,14 @@ a {
 .container {
     padding: 20px;
     margin: 0 auto;
-    max-width: 2000px;
+    max-width: 1070px;
     position: relative;
     z-index: 1;
 }
 
 header {
-    text-align: right;
+    
+    
     position: absolute;
     right: 0;
     top: 25%;
@@ -266,7 +268,12 @@ background-image: linear-gradient(
 .word-highlight {
     color: #39e7ff;
 }
-
+.img-fluid {
+    
+    position: absolute;
+    top: 5vh;
+    right: 65%;
+}
 .G-container {
     -webkit-animation: fadeInAndUp 0.7s ease-out forwards;
     animation: fadeInAndUp 0.7s ease-out forwards;
@@ -280,12 +287,7 @@ background-image: linear-gradient(
     width: 100%;
     height: relative;
 }
-.img-fluid {
-    
-    position: absolute;
-    top: 5vh;
-    right: 65%;
-}
+
 .G-fluid {
     font-family: 'Futura Bold', 'Roboto', Helvetica, Arial, sans-serif;
     height: 83vh;
