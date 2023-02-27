@@ -73,7 +73,7 @@
     }
 }
   
-@media screen and (max-width: 380px) and (max-height: 850px) {
+@media screen and  (max-height: 1000px) {
     
     .G {
         
@@ -173,7 +173,9 @@ body {
     line-height: 1.7em;
     color: black;
     overflow-x: hidden;
-    width: relative ;
+  
+    position: flex;
+    max-width: 800%;
 }
 
 
@@ -215,10 +217,10 @@ header {
 }
 
 #header {
-    height: 130vh;
+    height: 100vh;
     max-width: none;
     color: white;
-    padding: 10;
+    padding: 9px;
    
 background-image: linear-gradient(
     135deg,
@@ -244,7 +246,7 @@ background-image: linear-gradient(
 }
 
 .main-subheading {
-    float: right;
+    float: center;
     line-height: 1.2em;
     opacity: 0;
     -webkit-animation: fadeInAndUp 0.7s 0.7s forwards;
@@ -257,7 +259,7 @@ background-image: linear-gradient(
 .img-fluid {
     
     position: absolute;
-    top: 5vh;
+    top: 4vh;
     right: 65%;
 }
 .G-container {
@@ -507,11 +509,11 @@ background-image: linear-gradient(
     100%{width: 60%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .Excel{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s Excel forwards;
 }
-@keyframes drupal {
+@keyframes Excel {
     0%{width: 0%;}
     100%{width: 65%;}
 }
@@ -680,9 +682,11 @@ background-image: linear-gradient(
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
+    position: flex;
+    max-width: 100%;
 }
 .contacto .contenido-seccion{
-    max-width: 1100px;
+    max-width: px;
     margin: auto;
 }
 .contacto h2{
@@ -797,82 +801,9 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
-/* SECCION RESPONSIVE */
-@media screen and (min-width: 480px){
-    .G .G-container .G-fluid{
-        display: auto;
-        position: absolute;
-    }
-    
+@media screen and (max-width:980px){
     nav{
-        display: auto;
-    }
-    .nav-responsive{
-        display: block;
-    }
-    nav.responsive{
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #252A2E;
-        width: 180px;
-    }
-    nav.responsive ul{
-        display: block !important;
-    }
-    nav.responsive ul li{
-        border-bottom: 1px solid #fff;
-        padding: 10px 0;
-    }
-    .sobremi .fila{
-        display: block;
-    }
-    .sobremi .fila .col{
-        width: fit-content;
-    }
-
-    .skills .fila{
-        display: block;
-    }
-    .skills .fila .col{
-        width: 100%;
-    }
-    .skills .fila .col .barra-skill{
-        width: 100%;
-    }
-
-    .curriculum .fila{
-        display: block;
-    }
-    .curriculum .fila .col{
-        width: 90%;
-    }
-    .curriculum .fila .derecha{
-        margin-left: 20px;
-    }
-
-    .portfolio .galeria{
-        display: block;
-        width: 100%;
-    }
-    .portfolio .galeria .proyecto{
-        max-width: 100%;
-    }
-    .portfolio .galeria .proyecto img{
-        width: 100%;
-    }
-    .contacto .fila{
-        display: block;
-    }
-    .contacto .fila .col{
-        width: 100%;
-    }
-    
-}
-@media screen and (minmax-width:980px){
-    nav{
-        display: auto;
+        display: none;
     }
     .nav-responsive{
         display: block;
@@ -893,7 +824,7 @@ footer .arriba{
         padding: 10px 0;
     }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
     .sobremi .fila{
         display: block;
     }
