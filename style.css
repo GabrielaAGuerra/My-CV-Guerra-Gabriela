@@ -210,7 +210,7 @@ a {
 .container {
     padding: 20px;
     margin: 0 auto;
-    max-width: 1070px;
+    max-width: 2000px;
     position: relative;
     z-index: 1;
 }
