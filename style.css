@@ -800,7 +800,7 @@ footer .arriba{
 /* SECCION RESPONSIVE */
 @media screen and (min-width: 480px){
     .G .G-container .G-fluid{
-        display: flex;
+        display: auto;
     }
     
     nav{
