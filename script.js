@@ -171,7 +171,7 @@ window.requestAnimationFrame(animateThings);
 var GContainer = document.querySelector(".G-container"),
 	reduction = 0.005;
 document.body.onmousemove = function(e) {
-	if(document.body.scrollTop < window.innerHeight && ZContainer != null) {
+	if(document.body.scrollTop < window.innerHeight && GContainer != null) {
 		var horizScale = -(e.clientX / window.innerWidth - 0.5) * 100 * reduction;
 		var vertScale = -(e.clientY / window.innerHeight - 0.5) * 100 * reduction * 2;
 
@@ -182,9 +182,9 @@ document.body.onmousemove = function(e) {
 	}
 }
 
-//let menuVisible = false;
+let menuVisible = false;
 //Función que oculta o muestra el menu
-/*function mostrarOcultarMenu(){
+function mostrarOcultarMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
         menuVisible = false;
@@ -198,7 +198,7 @@ function seleccionar(){
     //oculto el menu una vez que selecciono una opcion
     document.getElementById("nav").classList = "";
     menuVisible = false;
-}*/
+}
 //Funcion que aplica las animaciones de las habilidades
 function efectoHabilidades(){
     var skills = document.getElementById("skills");
@@ -223,4 +223,3 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
-

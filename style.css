@@ -67,7 +67,7 @@
     }
 }
   
-@media screen and (max-width: 480px) and (max-height: 850px) {
+@media screen and (max-width: 380px) and (max-height: 850px) {
     .G {
         -webkit-transform: translateX(-95%) rotateZ(-30deg);
         -ms-transform: translateX(-95%) rotateZ(-30deg);
@@ -84,7 +84,7 @@
         transform: translateX(-15%) rotateZ(-30deg) translateY(-30%);
     }
     header {
-        top: 70%;
+        top: 50%;
     }
 }
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
@@ -146,9 +146,9 @@ html{
     color: #1e2326;;
 }
 .nav-responsive{
-    background-color: #1e2326;;
+    background-color: #1CB698;
     color:#fff;
-    padding: 15px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
@@ -809,7 +809,7 @@ footer .arriba{
         padding: 10px 0;
     }
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
     .sobremi .fila{
         display: block;
     }
