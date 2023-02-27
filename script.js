@@ -186,7 +186,7 @@ let menuVisible = false;
 //Función que oculta o muestra el menu
 function mostrarOcultarMenu(){
     if(menuVisible){
-        document.getElementById("nav").classList ="";
+        document.getElementById("nav").classList ="responsive";
         menuVisible = false;
     }else{
         document.getElementById("nav").classList ="responsive";
