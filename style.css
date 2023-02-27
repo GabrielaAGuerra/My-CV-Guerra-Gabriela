@@ -801,6 +801,7 @@ footer .arriba{
 @media screen and (min-width: 480px){
     .G .G-container .G-fluid{
         display: auto;
+        position: absolute;
     }
     
     nav{
