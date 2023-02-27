@@ -73,9 +73,10 @@
     }
 }
   
-@media screen and (max-width: 380px) and (max-height: 850px) and (min-width: 380px){
+@media screen and (max-width: 380px) and (max-height: 850px) {
     
     .G {
+        
         -webkit-transform: translateX(-95%) rotateZ(-30deg);
         -ms-transform: translateX(-95%) rotateZ(-30deg);
         transform: translateX(-95%) rotateZ(-30deg);
@@ -83,6 +84,7 @@
 }
 @media (max-aspect-ratio: 1/1) and (max-width: 700px) {
     .G {
+    
         font-size: 59vh;
         top: 0;
         left: 45%;
@@ -95,19 +97,7 @@
     }
 }
 @media screen and (min-width: 480px){
-    .G{
-        font-size: 20vh;
-        top: 0;
-        left: 10%;
-        -webkit-transform: translateX(-15%) rotateZ(-30deg) translateY(-30%);
-        -ms-transform: translateX(-15%) rotateZ(-30deg) translateY(-30%);
-        transform: translateX(-15%) rotateZ(-30deg) translateY(-30%);
-    }
-    header {
-        
-       
-        top: 30%;
-    }
+    
    
     
 }
@@ -812,7 +802,78 @@ footer .arriba{
     font-size: 18px;
 }
 /* SECCION RESPONSIVE */
-@media screen and (max-width:980px){
+@media screen and (min-width: 480px){
+    .G{
+        display: flex;
+    }
+    
+    nav{
+        display: auto;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+    .sobremi .fila{
+        display: block;
+    }
+    .sobremi .fila .col{
+        width: fit-content;
+    }
+
+    .skills .fila{
+        display: block;
+    }
+    .skills .fila .col{
+        width: 100%;
+    }
+    .skills .fila .col .barra-skill{
+        width: 100%;
+    }
+
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width: 90%;
+    }
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+
+    .portfolio .galeria{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .galeria .proyecto{
+        max-width: 100%;
+    }
+    .portfolio .galeria .proyecto img{
+        width: 100%;
+    }
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+    }
+    
+}
+@media screen and (minmax-width:980px){
     nav{
         display: auto;
     }
